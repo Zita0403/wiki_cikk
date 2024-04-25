@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kép megosztás</title>
+</head>
+<body>
+    <a href="./hazi.html">Vissza</a>
+    
+    <h1>Itt megoszthatod másokkal a kedvenc képeidet</h1>
+
+    <form action="./kepgyujtemeny.php" method="post">
+
+        <label for="image">Fénykép feltöltése:</label>
+        <input type="file" id="image" value="image" name="image" required>
+        
+        <br><br><br>
+
+        <label for="típus">Milyen eszközzel készült a kép?</label>
+        <select name="" id="típus">
+            <option value="telefon">Telefon</option>
+            <option value="digitalis_fenykepezo">Digitális fényképezőgép</option>
+        </select>
+
+        <br><br><br>
+
+        <textarea name="beallitasok" id="beallitasok" cols="85" rows="20">Eszköz beállítások:</textarea>
+
+        <br><br><br>
+
+        <input type="submit" value="Megosztás"> 
+        
+    </form>
+</body>
+</html>
