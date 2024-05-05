@@ -1,0 +1,65 @@
+body {
+    background-color: #eeebc0;
+    color: #3B4E59;
+}
+
+header {
+    background-color: #F2C879;
+}
+
+h2, h3 {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    color: #F26B83;
+}
+
+h3 {
+    color: #f3bc58;
+}
+
+p {
+    color: #3B4E59;
+}
+
+a:hover {
+    color: #F26B83;
+  }
+
+p, li, td {
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+
+table, th, td {
+    border: 2px solid #3B4E59;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 50px;    
+}
+
+td {
+    height: 25px;
+}
+
+tr:hover {
+    background-color: #F2C879;
+}
+
+.center_align {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
