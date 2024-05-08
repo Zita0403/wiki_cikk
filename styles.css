@@ -22,6 +22,10 @@ p {
     color: #3B4E59;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     color: #F26B83;
   }
