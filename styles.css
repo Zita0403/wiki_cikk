@@ -8,7 +8,8 @@ header {
     letter-spacing: 1.5px;
 }
 
-h2, h3 {
+h2, 
+h3 {
     font-family: Geneva, Tahoma, Verdana, sans-serif;
     color: #F26B83;
     letter-spacing: 1.5px;
@@ -30,13 +31,17 @@ a:hover {
     color: #F26B83;
   }
 
-p, li, td {
+p, 
+li, 
+td {
     font-family: Georgia, Times, "Times New Roman", serif;
     text-align: justify;
     letter-spacing: 0.5px;
 }
 
-table, th, td {
+table, 
+th, 
+td {
     border: 2px solid #3B4E59;
   }
 
