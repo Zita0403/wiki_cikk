@@ -58,6 +58,10 @@ td {
     height: 25px;
 }
 
+tr:nth-child(even) {
+    background-color:#f26b847f;
+}
+
 tr:hover {
     background-color: #F2C879;
 }
